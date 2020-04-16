@@ -13,7 +13,7 @@ public:
 	Ray();
 	Ray(const Point3D& origin, const Vector3D& direction);
 	Ray(const Ray& ray);
-	Ray& operator=(const Ray& rhs);
+	Ray operator=(const Ray& rhs);
 	~Ray();
 };
 

@@ -15,7 +15,7 @@ Ray::Ray(const Ray& ray)
 
 }
 
-Ray& Ray::operator=(const Ray& rhs)
+Ray Ray::operator=(const Ray& rhs)
 {
 	Ray ret(rhs);
 	return ret;

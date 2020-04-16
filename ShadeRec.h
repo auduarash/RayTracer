@@ -19,7 +19,7 @@ public:
 	ShadeRec(const ShadeRec& sr);
 	~ShadeRec(void);
 
-	ShadeRec& operator=(const ShadeRec& rhs);
+	ShadeRec operator=(const ShadeRec& rhs);
 };
 
 #endif

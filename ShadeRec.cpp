@@ -23,7 +23,7 @@ ShadeRec::~ShadeRec(void)
 {
 }
 
-ShadeRec& ShadeRec::operator=(const ShadeRec& rhs)
+ShadeRec ShadeRec::operator=(const ShadeRec& rhs)
 {
 	ShadeRec ret(rhs);
 	return ret;
